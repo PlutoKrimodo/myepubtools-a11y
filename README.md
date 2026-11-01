@@ -2,8 +2,6 @@
 
 MyEpubTools 是一个面向 Windows 的 EPUB 桌面工具箱（PyQt6），提供解包 / 重打包、元数据编辑、文本清洗、样式排版、格式优化、拆分 / 合并、简繁转换 7 个工具，并按《Windows 应用无障碍可访问性开发指南》完成屏幕阅读器语义、键盘导航与高对比度适配。
 
-> 设计上业务逻辑与界面分离：`modules/` 负责 EPUB 解析、读写与文本 / 样式处理，`desktop/` 负责原生界面、键盘导航与无障碍语义。
-
 ![主界面](docs/main-window.png)
 
 ## 功能一览
@@ -163,7 +161,6 @@ ToolPage（通用渲染器） ──读取──> PageConfig / Field（modules/t
 | 真实启动 | Windows 显示环境启动 / 退出正常；`--smoke` 退出码 0 |
 | 高对比度 | 书卷 / 内置高对比度 / 系统高对比度三种模式均验证 |
 
-> 适配说明与测试记录见 [docs/ACCESSIBILITY.md](docs/ACCESSIBILITY.md)。
 
 ## 范围说明
 
