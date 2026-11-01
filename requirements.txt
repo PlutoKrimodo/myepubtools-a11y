@@ -1,0 +1,8 @@
+# Verified with Python 3.12.8 + PyQt6 6.12.0
+# Flask / Werkzeug are used by the modules layer
+# (Blueprint / request / url_for).
+# The application runs fully locally and does not start a network service.
+Flask>=2.2,<4
+beautifulsoup4>=4.12,<5
+opencc
+PyQt6>=6.6,<7
